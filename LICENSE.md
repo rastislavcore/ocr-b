@@ -1,4 +1,4 @@
-Copyright (c) 2019, Raisty (https://github.com/raisty),
+Copyright (c) 2019, Rastislav Vasicka rastislav@onion.email (https://github.com/rastislavcore),
 with Reserved Font Name OCR-B.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
