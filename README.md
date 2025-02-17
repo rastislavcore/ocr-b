@@ -34,8 +34,8 @@ CSS import of the latest version
 ```css
 @font-face {
   font-family: "OCR-B";
-  src: url(https://cdn.jsdelivr.net/gh/rastislavcore/OCR-B/dist/OCR-B.ttf) format("truetype"),
-       url(https://cdn.jsdelivr.net/gh/rastislavcore/OCR-B/dist/OCR-B.otf) format("opentype");
+  src: url(https://cdn.jsdelivr.net/gh/rastislavcore/ocr-b/dist/OCR-B.ttf) format("truetype"),
+       url(https://cdn.jsdelivr.net/gh/rastislavcore/ocr-b/dist/OCR-B.otf) format("opentype");
 }
 ```
 
@@ -44,15 +44,15 @@ CSS with Minor updates and patch fixes within a major version
 ```css
 @font-face {
   font-family: "OCR-B";
-  src: url(https://cdn.jsdelivr.net/gh/rastislavcore/OCR-B@1/dist/OCR-B.ttf) format("truetype"),
-       url(https://cdn.jsdelivr.net/gh/rastislavcore/OCR-B@1/dist/OCR-B.otf) format("opentype");
+  src: url(https://cdn.jsdelivr.net/gh/rastislavcore/ocr-b@1/dist/OCR-B.ttf) format("truetype"),
+       url(https://cdn.jsdelivr.net/gh/rastislavcore/ocr-b@1/dist/OCR-B.otf) format("opentype");
 }
 ```
 
 Using SRI with exact version
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastislavcore/OCR-B@1.1/dist/ocrb.css" integrity="sha384-{hash}" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastislavcore/ocr-b@1.2/dist/ocrb.css" integrity="sha384-{hash}" crossorigin="anonymous" />
 ```
 
 > Please, replace {hash} with hash generated for chosen specific version. You can use for example this [SRI Hash Generator](https://www.srihash.org/).
