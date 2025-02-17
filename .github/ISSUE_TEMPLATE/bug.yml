@@ -1,0 +1,66 @@
+name: Font Bug Report 🪲
+description: Report issues with the OCR-B UFO font file or its implementation
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide details about any issues with the OCR-B UFO font file or its implementation.
+
+  - type: markdown
+    attributes:
+      value: |
+        Font-specific details.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Software and tools used (e.g., FontForge, Glyphs, RoboFont)
+      placeholder: Font editor and version
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug
+    attributes:
+      label: Bug Description
+      description: Describe the issue with the UFO font file.
+      placeholder: Describe the bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior with the UFO file.
+      placeholder: |
+        1. Open UFO file in...
+        2. Attempt to...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+      placeholder: Expected result
+    validations:
+      required: true
+
+  - type: input
+    id: commit
+    attributes:
+      label: Commit/Version
+      description: Commit hash or version where bug occurs.
+      placeholder: baf2aab0128f07262b564214ec70fc07befc6bb3
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
