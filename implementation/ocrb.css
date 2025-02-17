@@ -1,0 +1,6 @@
+@font-face {
+	font-family: "OCR-B";
+	src: url(../dist/OCR-B.ttf) format("truetype"),
+		url(../dist/OCR-B.otf) format("opentype");
+	font-display: swap;
+}

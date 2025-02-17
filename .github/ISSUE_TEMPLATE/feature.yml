@@ -1,0 +1,53 @@
+name: Font Feature Request 🔮
+description: Suggest improvements or new features for the OCR-B UFO font
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest improvements or new features for the OCR-B UFO font. Please be as specific as possible.
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature Description
+      description: Describe the feature or improvement you'd like to see.
+      placeholder: Describe the feature
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain why this feature would be valuable for the font.
+      placeholder: This feature would be useful because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Technical Details
+      description: Provide any technical details or suggestions for implementation.
+      placeholder: |
+        - Suggested glyph modifications
+        - OpenType features
+        - Character set additions
+        - Technical requirements
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Provide examples of similar implementations in other fonts (if applicable).
+      placeholder: |
+        - Example 1: [Font Name] implements this feature by...
+        - Example 2: [Another Font] handles this by...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the feature request.
